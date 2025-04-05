@@ -22,7 +22,7 @@ void addcontact() {
         printf("Enter Email : ");
         fgets(contact.email, sizeof(contact.email), stdin);
 
-        // Save each field on a new line
+        
         fprintf(file, "%s", contact.name);
         fprintf(file, "%s", contact.phone);
         fprintf(file, "%s", contact.email);
